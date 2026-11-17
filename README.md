@@ -94,22 +94,21 @@ Se instalan desde el propio notebook: `biopython`, `muscle`, `mafft`. El resto (
 ## Archivos del repositorio
 
 ```
-├── Proyecto_Final_HLB.ipynb      Notebook con todo el análisis, ejecutado de punta a punta
-├── Informe.pdf                   Informe escrito del proyecto
+├── Proyecto_Final_HLBioinformatica_solanagalindez_.ipynb
+│                                 Notebook con todo el análisis, ejecutado de punta a punta
+├── Informe_Proyecto_Final_GalindezSolana.pdf
+│                                 Informe escrito del proyecto
 ├── datos_hlb.csv                 Matriz de expresión usada (12 muestras x 2000 sondas + etiquetas)
 ├── README.md                     Este archivo
-├── papers/                       PDFs de los papers de referencia
-├── datos/                        Generados al ejecutar
-│   ├── liberibacter_16S.fasta            secuencias descargadas de GenBank
-│   ├── liberibacter_16S_alineado.fasta   alineamiento múltiple
-│   ├── matriz_distancias_k2p.csv         matriz de distancias Kimura 2-parámetros
-│   ├── arbol_16S.nwk                     árbol filogenético en formato Newick
-│   ├── GPL5731_anotacion.txt             tabla de anotación de la plataforma
-│   ├── expresion_diferencial_*.csv       resultados de expresión diferencial
-│   ├── genes_discriminantes_rf.csv       ranking de genes del Random Forest
-│   └── interaccion_genotipo_tratamiento.csv  respuesta a la infección en cada genotipo
-└── figuras/                      Generadas al ejecutar (15 figuras PNG)
+├── papers/REFERENCIAS.md         Citas, DOI y enlaces a los dos papers de referencia
+└── *.png                         Las 16 figuras que genera el notebook
 ```
+
+Al ejecutar el notebook se crean además dos carpetas que no están versionadas, porque su contenido
+se reconstruye solo: `datos/`, con las secuencias descargadas de GenBank, el alineamiento, la matriz
+de distancias Kimura 2-parámetros, el árbol en formato Newick, la tabla de anotación de la
+plataforma y los resultados de expresión diferencial; y `figuras/`, con las mismas figuras PNG que
+están en la raíz de este repositorio.
 
 ## Principales resultados
 
